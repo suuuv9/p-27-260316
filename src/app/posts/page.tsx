@@ -3,12 +3,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export interface Post {
-    id: number,
-    title: string,
-    content: string
-}
-
 export default function Home() {
 
     const [posts, setPosts] = useState<Post[]>([]);
